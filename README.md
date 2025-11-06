@@ -3,7 +3,19 @@
 - Created React App using vite
 - Configured TailwindCSS
 - Header
+- routing
 - Login Form
+- Sign up form
+- Form Validation
+- useRef Hook
+- firebase setup
+- deploy app to firebase
+- create a signup user Account
+- Implement Sign In user Api
+- integrate the redux Store
+- IMPLIMENTED THE SIGNOUT
+- Update Profilr
+- Fetch From TMDB
 
 # Features
 
