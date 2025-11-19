@@ -10,6 +10,7 @@ import { auth } from "../utils/firebase";
 
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
+import { BG_URL } from "../utils/constants";
 
 export const Login = () => {
   const [isSignInForm, setisSignInform] = useState(true);
@@ -84,7 +85,7 @@ export const Login = () => {
     <div className="relative">
       <Header />
       <div className="absolute">
-        <img src="https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg" />
+        <img alt="background" src={BG_URL} />
       </div>
       <form
         onSubmit={(e) => e.preventDefault()}
